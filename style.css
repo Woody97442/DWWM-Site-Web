@@ -1,6 +1,14 @@
 /*font-family: 'Gothic A1', sans-serif;*/
 
-@font-face {
+body
+{
+    background-image: url("images/formation-developpeur-web-paris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face 
+{
     font-family: 'tahoma';
     src: url(/Fonts/tahoma-cufonfonts/tahoma.ttf);
 }
