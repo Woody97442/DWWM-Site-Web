@@ -1,0 +1,42 @@
+/*font-family: 'Gothic A1', sans-serif;*/
+
+@font-face {
+    font-family: 'tahoma';
+    src: url(/Fonts/tahoma-cufonfonts/tahoma.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-color: #008c40;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+
+header a
+{
+    font-family: 'tahoma';
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+header a:hover
+{
+    color: #d6d5d7;
+    text-decoration: underline;
+}
+
+header div
+{
+    width: 964px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+}
