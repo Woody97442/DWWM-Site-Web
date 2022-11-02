@@ -105,10 +105,10 @@ section{
 
 footer{
     width: 100%;
-    background-color: black;
+    background-color: #FFF;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     color: #008c40;
 }
 
@@ -118,4 +118,13 @@ footer p{
     flex-wrap: wrap;
     align-items: flex-start;
     margin: 0px 20px;
+}
+
+footer div{
+    width: 964px;
+    display: flex;
+    display: block;
+    align-items: flex-start;
+    margin: 00px 10px;
+    padding: 1px 0;
 }
