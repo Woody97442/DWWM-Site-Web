@@ -1,16 +1,17 @@
 /*font-family: 'Gothic A1', sans-serif;*/
 
+@font-face 
+{
+    font-family: 'tahoma';
+    src: url(tahoma.ttf);
+}
+
 body
 {
     background-image: url("images/formation-developpeur-web-paris.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-@font-face 
-{
-    font-family: 'tahoma';
-    src: url(/Fonts/tahoma-cufonfonts/tahoma.ttf);
+    background-attachment: fixed;
 }
 
 *{
@@ -18,33 +19,103 @@ body
     margin: 0;
 }
 
-header
-{
+.btn-green{
+    border-radius: 5px;
+    background-color: #008c40;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+/* Header Bar */
+
+header{
+    width: 100%;
     background-color: #008c40;
     display: flex;
     justify-content: center;
     color: #FFF;
 }
 
-header a
-{
+.btn{
     font-family: 'tahoma';
     color: #FFF;
     text-decoration: none;
     font-size: 16pt;
 }
-
-header a:hover
-{
+header a:hover{
     color: #d6d5d7;
     text-decoration: underline;
 }
-
-header div
-{
+header div{
     width: 964px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 3px 0;
+}
+
+
+/* Titre est centre page */
+
+section{
+    width: 964px;
+    height: 100%;
+    margin: 160px auto;
+}
+
+.main div{
+    padding: auto;
+}
+
+.main h1{
+    color: #FFF;
+    font-size: 60pt;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+.main a{
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #008c40;
+    text-decoration: none;
+    font-size: 20pt;
+    box-shadow: 0px 0px 10px 2px rgb(28, 28, 28);
+    padding: 4px 20px;
+    display: block;
+    text-align: center;
+    margin: 40px 30px;
+}
+
+.main h2{
+    color: #008c40;
+    font-family: 'Gothic A1';
+    font-size: 24pt;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: left;
+    display: block;
+    margin: 100px 50px;
+    background-color: #d6d5d7;
+}
+.container{
+    display: flex;
+}
+
+/* footer bas de page */
+
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    color: #008c40;
+}
+
+footer p{
+    display: flex;
+    font-size: 24pt;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0px 20px;
 }
