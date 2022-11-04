@@ -109,7 +109,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #008c40;
 }
 
 footer p{
@@ -118,6 +117,7 @@ footer p{
     flex-wrap: wrap;
     align-items: flex-start;
     margin: 0px 20px;
+    color: #000000;
 }
 
 footer div{
@@ -127,4 +127,14 @@ footer div{
     align-items: flex-start;
     margin: 00px 10px;
     padding: 1px 0;
+}
+
+footer a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Gothic A1';
+}
+footer a:hover{
+    color: #000000;
+    text-decoration: underline;
 }
